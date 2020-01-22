@@ -5,14 +5,19 @@
  */
 package ca.sheridancollege.week1.softwarefundamentals;
 
-/**22 jan
+/**22 january
  *
  * @author sidhu376
  */
 public class Student {
     
     private String name;
+    private String status;
 
+    public String getStatus() {
+        return status;
+    }
+    
     /**
      * Get the value of name
      *
